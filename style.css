@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	margin: 10px;
+	float: left;
+	background: pink;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.card p {
+	font-size: 50px;
+}
+
+.card:hover {
+	cursor: pointer;
+	border: 1px solid deeppink;
+}
+
+.score {
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 50px;
+	clear: both;
+}
